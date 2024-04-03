@@ -1,0 +1,32 @@
+.border1
+{
+       box-shadow: 10px 10px 5px black
+      -webkit-border-radious: 28px;
+      -moz-border-radious: 28px;
+       border-radious: 28px;
+}
+.shadowborder
+{
+     box-shadow: 10px 10px 5px black;
+}
+.button1 {
+         background:  green;
+         color:white;
+         width: 100px;
+         padding: 5px;
+        -webkit-border-radious: 28px;
+        -moz-border-radious: 28px;
+         border-radious: 28px;
+         background-image: -webkit-linear-gradient(top, blue, darkgreen);
+         filter: progrid:DXImageTransform.Microsoft.
+         gradient(startColorstr=blue, endColorstr=darkgreen);
+         background-image: linear-gradient(to bottom, blue, darkgreen);
+         }
+.button1:hover {
+       background: yellow;
+    background-image-: -webkit-linear-gradient(top, blue, red);
+    filter: progid:DXImageTransform.Microsoft.
+    gradient(startColorstr=blue, endColorstr=red);
+    background-image: linear-gradient(to bottom, blue, red);
+        }
+
